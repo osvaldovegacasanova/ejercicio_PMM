@@ -7,7 +7,7 @@ from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
 # Paso 1: Crear un dataset aleatorio
-np.random.seed(42)
+np.random.seed(1977)
 n_muestras = 1000
 v1 = np.random.normal(loc=50, scale=10, size=n_muestras)
 v2 = 0.5 * v1 + np.random.normal(loc=0, scale=5, size=n_muestras)
